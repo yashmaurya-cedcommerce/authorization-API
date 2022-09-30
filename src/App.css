@@ -1,3 +1,8 @@
+body
+{
+  background-color: #f4f6f8;
+}
+
 .App {
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -7,27 +12,55 @@
 {
   width: 80%;
   margin: auto;
+  padding: 5% 0%;
+}
+
+.loginHeading
+{
+  font-size: 4vw;
+  margin: 0% 0%;
+  padding: 3% 2%;
+  text-align: start;
+}
+
+.loginForm
+{
+  background-color: white;
+  border: 1px solid #dfe5f8;
+  padding: 2% 0%;
 }
 
 .inputDiv
 {
-  width: 50%;
+  width: 75%;
   margin: auto;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  padding: 1% 0%;
+  text-align: start;
 }
 
-.inputDiv p
+.inputLabel
 {
-  width: 30%;
+  width: 100%;
   font-size: 1.6vw;
+  text-align: start;
+  margin: 2% 0%;
 }
 
 .inputDiv input
 {
-  width: 70%;
+  width: 97%;
+  font-size: 1.4vw;
+  padding: 2% 1%;
+  background-color: #e9eeff;
+  border: 1px solid #dfe5f8;
+  border-radius: 4px;
+}
+
+.inputDescription
+{
+  font-size: 1.4vw;
+  opacity: 75%;
+  margin: 1% 0%;
 }
 
 .mySessionToken
@@ -42,16 +75,171 @@
   font-weight: bolder;
 }
 
+.buttonDiv
+{
+  width: 75%;
+  margin: auto;
+  padding: 0% 0% 3% 0%;
+  text-align: start;
+}
+
 .submitBtn
 {
-  font-size: 2vw;
-  background-color: rgb(26, 179, 239);
-  color: white;
+  font-size: 1.4vw;
   font-weight: bolder;
   border: none;
   border-radius: 4px;
-  padding: 1% 0%;
+  padding: 2% 0%;
   width: 20.5%;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
+  border: 1px solid #dfe5f8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOME PAGE CSS  */
+
+.homeContainer
+{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebarContainer
+{
+  width: 20%;
+  padding: 2% 0%;
+}
+
+.sidebarOptions
+{
+  text-align: start;
+  font-size: 1.6vw;
+  font-weight: bolder;
+  margin: 0% 0%;
+  padding: 5% 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconSpan {
+  width: 20%;
+}
+
+.textSpan
+{
+  width: 80%;
+}
+
+.mainContainer
+{
+  width: 80%;
+}
+
+.mainHeading
+{
+  font-size: 3vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  margin: 5% 0%;
+  text-align: start;
+}
+
+.mainSubHeading
+{
+  font-size: 2vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  margin: 2% 0%;
+  text-align: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tableContainer
+{
+  width: 100%;
+  margin: auto;
+}
+
+.tableHeader
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 2% 0%;
+  border-radius: 4px;
+  border: 1px solid #dfe5f8;
+}
+
+.paginationDiv
+{
+  width: 20%;
+}
+
+.paginationDiv span
+{
+  font-size: 1vw;
+  font-weight: bolder;
+  margin: 0% 2%;
+}
+
+.numSelectDiv
+{
+  width: 30%;
+}
+
+.viewColumnBtnDiv
+{
+  width: 30%;
+}
+
+.Polaris-Page
+{
+  width: 100%;
+  font-weight: bolder;
+}
+
+.tableHeading
+{
+  font-weight: bolder;
+  font-size: 2vw;
+  margin: 1% 0%;
+}
+
+.viewColBtn
+{
+  font-size: 1.5vw;
+  font-weight: bold;
+  border: none;
+  padding: 4% 0%;
+  width: 50%;
+  border-radius: 4px;
+  background-color: #6745c6;
+  color: white;
 }

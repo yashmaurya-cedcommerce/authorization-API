@@ -35,12 +35,11 @@ function App() {
     fetch(`https://fbapi.sellernext.com/user/login?username=${name}&password=${password}`, opt)
       .then(res => res.json())
       .then(temp => {
-        console.log(temp)
+        // console.log(temp)
         if (temp.success === true) {
           setPost(temp);
           navigate("/home");
           var tempToken = temp.data.token;
-          console.log(tempToken);
           sessionStorage.setItem('mySessionToken', tempToken);
         }
         else {
@@ -56,7 +55,7 @@ function App() {
 
         <Route path="/" element={<LoginPanel nameHandler={nameHandler} passwordHandler={passwordHandler} name={name} password={password} post={post} check={check} wrong={wrong} />} />
 
-        <Route path="/home" element={<Home  />} />
+        <Route path="/home" element={<Home />} />
 
       </Routes>
 
